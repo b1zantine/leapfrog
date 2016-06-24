@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>LeapFrog</title>
+    <link rel="stylesheet" href="css/style.css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <div class="status-box">
+      <h2>Status</h2>
+      <div class="half-box status-head">
+        <h4>Leap Motion : </h4>
+        <h4>Cardboard App : </h4>
+      </div>
+      <div class='half-box indicator-box'>
+        <h4><div class="leap-indicator on"></div>  <button class="leap-button">Disconnect</button></h4>
+        <h4><div class="card-indicator off"></div>  <button class="card-button">Connect</button></h4>
+      </div>
+
+    </div>
+
+    <!-- All of the Node.js APIs are available in this renderer process. -->
+    <!-- We are using node <script>document.write(process.versions.node)</script>,
+    Chromium <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>. -->
+  </body>
+  <script src="js/leap.min.js" charset="utf-8"/>
+  <script src="js/leaptrainer.min.js" charset="utf-8"/>
+  <script>
+    // You can also require other files to run in this process
+    // require('./renderer.js')
+  </script>
+</html>

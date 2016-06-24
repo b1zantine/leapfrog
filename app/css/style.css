@@ -1,0 +1,36 @@
+@font-face {
+  font-family: roboto-light;
+  src: url("../fonts/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: roboto-light-italic;
+  src: url("../fonts/Roboto-LightItalic.ttf");
+}
+
+body{font-family: roboto-light;}
+
+.status-box{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+.half-box{
+  width: 45%;
+  margin: 0;
+  float: left;
+  display: inline-block;
+}
+.status-head{text-align: right; padding-right: 10px;}
+.indicator-box{text-align: left; padding-left: 10px;}
+
+.leap-indicator, .card-indicator{
+  border-radius: 5px;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px 0 5px;
+  display: inline-block;
+}
+.on{background-color: #36ff33;}
+.off{background-color: #ff3333;}
+
+.leap-button, .card-button{font-family: roboto-light-italic;}
