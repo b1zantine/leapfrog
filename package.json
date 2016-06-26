@@ -17,6 +17,10 @@
   ],
   "author": "Sudar Abisheck",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/SudarAbisheck/leapfrog.git"
+  },
   "dependencies": {
     "leapjs": "^0.6.4"
   }
