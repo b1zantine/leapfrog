@@ -1,17 +1,24 @@
 const electron = require('electron')
 const app = electron.app
 const BrowserWindow = electron.BrowserWindow
-
 let mainWindow
+
+require('./leapmotion.js')
 
 function createWindow () {
   mainWindow = new BrowserWindow({
-    width: 500,
-    height: 500,
+    width: 450,
+    height: 400,
     resizable: false,
    })
    mainWindow.setMenu(null);
    mainWindow.loadURL(`file://${__dirname}/app/index.html`)
+
+  //  var leapController = new Leap.Controller();
+  //  leapController.connect();
+  //  Leap.loop(function(frame){
+  //   console.log(frame.hands.length);
+  // });
 
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()

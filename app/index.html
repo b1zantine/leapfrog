@@ -13,8 +13,8 @@
         <h4>Cardboard App : </h4>
       </div>
       <div class='half-box indicator-box'>
-        <h4><div class="leap-indicator on"></div>  <button class="leap-button">Disconnect</button></h4>
-        <h4><div class="card-indicator off"></div>  <button class="card-button">Connect</button></h4>
+        <h4><div id="leap-indicator" class="off"></div>  <button id="leap-button">Connect</button></h4>
+        <h4><div id="card-indicator" class="off"></div>  <button id="card-button">Connect</button></h4>
       </div>
 
     </div>
@@ -24,10 +24,9 @@
     Chromium <script>document.write(process.versions.chrome)</script>,
     and Electron <script>document.write(process.versions.electron)</script>. -->
   </body>
-  <script src="js/leap.min.js" charset="utf-8"/>
-  <script src="js/leaptrainer.min.js" charset="utf-8"/>
+  <!-- <script src="js/leap.min.js" charset="utf-8"/>
+  <script src="js/leaptrainer.min.js" charset="utf-8"/> -->
   <script>
-    // You can also require other files to run in this process
-    // require('./renderer.js')
+    require('./js/renderer.js')
   </script>
 </html>

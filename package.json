@@ -5,7 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start" : "electron ."
+    "start": "electron ."
   },
   "devDependencies": {
     "electron-prebuilt": "^1.2.5"
@@ -16,5 +16,8 @@
     "gesture"
   ],
   "author": "Sudar Abisheck",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "leapjs": "^0.6.4"
+  }
 }
