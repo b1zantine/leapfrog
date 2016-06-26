@@ -14,12 +14,6 @@ function createWindow () {
    mainWindow.setMenu(null);
    mainWindow.loadURL(`file://${__dirname}/app/index.html`)
 
-  //  var leapController = new Leap.Controller();
-  //  leapController.connect();
-  //  Leap.loop(function(frame){
-  //   console.log(frame.hands.length);
-  // });
-
   // Open the DevTools.
   // mainWindow.webContents.openDevTools()
 
